@@ -1,0 +1,355 @@
+body{
+    background-color: black;
+    color: white;
+}
+.offcanvas{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.offcanvas-body{
+    background-color: rgba(255, 255, 255, 0.415);
+    color: white;
+    font-size: 200%;
+}
+.dropdown-menu a{
+    font-size: 150%;
+    text-align: center;
+}
+.home-content{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    padding: 15%;
+    background-image: linear-gradient(rgba(0, 0, 1, 0.572),rgba(0, 1, 5, 0.526)),url(images/logo.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.home-content h3{
+    font-size: 200%;
+    font-weight: 700;
+    padding-top: 5%;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
+}
+
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 30px;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
+}
+
+.home-content h3 span {
+    color: white;
+}
+.textmid{
+    text-align: center;
+    width: 100%;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.how{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    color: black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.how img{
+    width: 100%;
+    height: 50%;
+}
+.card{
+    margin-left: 2%;
+    color: black;
+    width: 50%;
+}
+.btn2 {
+    display: inline-block;
+    padding: 2%;
+    background: transparent;
+    box-shadow: 0 0 10px rgb(9, 10, 11);
+    font-size: 16px;
+    color: rgb(202, 165, 28);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 10%;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+}
+
+.btn2:hover{
+    background-color: rgb(23, 20, 20);
+    color: rgb(235, 228, 228);
+}
+.next2{
+    background-image:  linear-gradient(rgba(204, 198, 189, 0.384), rgba(237, 227, 212, 0.105)),url(images/doback.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 5%;
+    
+    display: flex;
+}
+.netext2{
+    width: 60%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+.neimg{
+    width: 35%;
+}
+.neimg img{
+    width: 365px;
+    height: 400px;
+}
+.next h2{
+    color:  rgb(242, 144, 8);
+    font-style: italic;
+}
+.next2 h2{
+    color:  rgb(242, 144, 8);
+    font-style: italic;
+    font-size: 120%;
+    padding-bottom: 3%;
+    
+}
+.next2 h3{
+    color:  rgb(242, 144, 8);
+    font-style: italic;
+    font-size: 120%;
+    
+    padding-top: 3%;
+}
+.social-media1 a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(223, 226, 230);
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(223, 226, 230);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.social-media1 a:hover {
+    background: rgb(223, 226, 230);
+    color: #1f242d;
+    box-shadow: 0 0 20px rgb(223, 226, 230);
+    text-decoration: none;
+}
+.home-content2{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    padding: 15%;
+    background-image: linear-gradient(rgba(0, 0, 1, 0.572),rgba(0, 1, 5, 0.526)),url(images/contact.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.home-content2 h3{
+    font-size: 200%;
+    font-weight: 700;
+    padding-top: 5%;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
+}
+
+.home-content2 h3:nth-of-type(2) {
+    margin-bottom: 30px;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
+}
+
+.home-content2 h3 span {
+    color: white;
+}
+.con{
+    text-align: center;
+    font-size: 200%;
+    padding: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.con .bx{
+    
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+   
+    font-size: 20px;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+ 
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.con h2{
+    font-weight: 400;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+     100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+     100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+     100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideBottom {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+     100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+     100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-24px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@media screen and (max-width:768px){
+    .next2{
+        display: block;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .netext2{
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        color: white;
+    }
+    .neimg img{
+        width: 365px;
+        height: 300px;
+    }
+
+    .con{
+        text-align: center;
+        font-size: 150%;
+        padding: 10%;
+    }
+    .d-block{
+        height: 400px;
+        padding: 5%;
+        width: 80%;
+    }
+
+    
+
+}
+
+.por{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    color: black;
+}
+.por a{
+    text-decoration: none;
+    color: black;
+}
+.por h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 4%;
+}
+.por img{
+    width: 100%;
+    height: 80%;
+}
+.porimg1{
+    padding: 5%;
+}
+.porimg2{
+    padding: 5%;
+}
+.carousel{
+    background-image:  linear-gradient(rgba(16, 14, 11, 0.852), rgba(16, 14, 11, 0.852)),url(images/logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.d-block{
+    height: 500px;
+    padding: 5%;
+    width: 80%;
+}
